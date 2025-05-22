@@ -1,137 +1,40 @@
-[00:11:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[00:11:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[00:11:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:11:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[00:11:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Geyser-Spigot (2.7.1-SNAPSHOT), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[00:12:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:12:01] [ServerMain/INFO]: Loaded 1290 recipes
-[00:12:01] [ServerMain/INFO]: Loaded 1399 advancements
-[00:12:02] [Server thread/INFO]: Starting minecraft server version 1.21
-[00:12:02] [Server thread/INFO]: Loading properties
-[00:12:02] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[00:12:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:12:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:12:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:12:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[00:12:04] [Server thread/INFO]: Default game type: SURVIVAL
-[00:12:04] [Server thread/INFO]: Generating keypair
-[00:12:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:12:04] [Server thread/INFO]: Using epoll channel type
-[00:12:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:12:04] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:12:05] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[00:12:07] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[00:12:07] [Server thread/INFO]: [floodgate] Took 1,950ms to boot Floodgate
-[00:12:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[00:12:07] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[00:12:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:12:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:12:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[00:12:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[00:12:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[00:12:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:12:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:12:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:12:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:12:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:12:12] [Server thread/INFO]: Preparing level "world"
-[00:12:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:12:13] [Server thread/INFO]: Time elapsed: 1213 ms
-[00:12:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:12:14] [Server thread/INFO]: Time elapsed: 186 ms
-[00:12:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:12:14] [Server thread/INFO]: Time elapsed: 148 ms
-[00:12:14] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[00:12:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[00:12:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[00:12:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[00:12:15] [Server thread/INFO]: [spark] Starting background profiler...
-[00:12:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:12:16] [Server thread/INFO]: [Geyser-Spigot] 
-[00:12:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
-[00:12:16] [Server thread/INFO]: [Geyser-Spigot] 
-[00:12:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:12:26] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 3370
-[00:12:26] [Server thread/INFO]: [Geyser-Spigot] Done (9.827s)! Run /geyser help for help!
-[00:12:26] [Server thread/INFO]: Done preparing level "world" (14.105s)
-[00:12:26] [Server thread/INFO]: Running delayed init tasks
-[00:12:26] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:12:26] [Server thread/INFO]: Done (32.626s)! For help, type "help"
-[00:12:26] [Server thread/INFO]: Timings Reset
-[00:12:41] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:12:41] [localSession-7-2/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:12:41] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:12:41] [Server thread/INFO]: .Parodic98 joined the game
-[00:12:42] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 31 at ([world]98.69999, -45.0, 221.2262)
-[00:13:01] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:13:01] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[00:13:01] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[00:13:01] [Server thread/INFO]: .Parodic98 left the game
-[00:13:18] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:13:18] [localSession-7-3/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:13:18] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:13:18] [Server thread/INFO]: .Parodic98 joined the game
-[00:13:18] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 255 at ([world]98.69999, -45.0, 221.2262)
-[00:13:58] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:13:58] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[00:13:58] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[00:13:58] [Server thread/INFO]: .Parodic98 left the game
-[00:14:18] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:14:18] [localSession-7-4/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:14:19] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:14:19] [Server thread/INFO]: .Parodic98 joined the game
-[00:14:19] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 367 at ([world]98.69999, -45.0, 221.2262)
-[00:15:02] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[00:15:02] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:15:02] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[00:15:02] [Server thread/INFO]: .Parodic98 left the game
-[00:15:27] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:15:27] [localSession-7-1/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:15:28] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:15:28] [Server thread/INFO]: .Parodic98 joined the game
-[00:15:28] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 484 at ([world]98.52281, -45.0, 221.69999)
-[00:16:02] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:16:02] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[00:16:02] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[00:16:03] [Server thread/INFO]: .Parodic98 left the game
-[00:17:17] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:17:17] [localSession-7-2/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:17:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:17:18] [Server thread/INFO]: .Parodic98 joined the game
-[00:17:18] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 598 at ([world]98.52281, -45.0, 221.69999)
-[00:18:03] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:18:03] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[00:18:03] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[00:18:03] [Server thread/INFO]: .Parodic98 left the game
-[00:18:25] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:18:25] [localSession-7-3/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:18:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:18:26] [Server thread/INFO]: .Parodic98 joined the game
-[00:18:26] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 728 at ([world]98.626366, -45.0, 220.63045)
-[00:19:04] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[00:19:04] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:19:04] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[00:19:04] [Server thread/INFO]: .Parodic98 left the game
-[00:19:27] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:19:27] [localSession-7-4/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:19:27] [User Authenticator #0/INFO]: UUID of player Parodic98 is edf9a7ac-c58d-3105-9f92-c12d9a4d698e
-[00:19:27] [Server thread/INFO]: Parodic98 joined the game
-[00:19:27] [Server thread/INFO]: Parodic98[/127.0.0.1:0] logged in with entity id 846 at ([world]7.5, 68.0, 72.5)
-[00:19:59] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:19:59] [Server thread/INFO]: Parodic98 lost connection: Disconnected
-[00:19:59] [Server thread/INFO]: Parodic98 left the game
-[00:20:28] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:20:28] [localSession-7-1/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:20:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:20:29] [Server thread/INFO]: .Parodic98 joined the game
-[00:20:29] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 1080 at ([world]98.626366, -45.0, 220.63045)
-[00:21:03] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client timed out
-[00:21:03] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[00:21:03] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[00:21:03] [Server thread/INFO]: .Parodic98 left the game
-[00:21:21] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[00:21:21] [localSession-7-2/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[00:21:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[00:21:21] [Server thread/INFO]: .Parodic98 joined the game
-[00:21:21] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 1222 at ([world]98.626366, -45.0, 220.63045)
+[00:37:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:37:51] [ServerMain/INFO]: No existing world data, creating new world
+[00:37:52] [ServerMain/INFO]: Loaded 1290 recipes
+[00:37:52] [ServerMain/INFO]: Loaded 1399 advancements
+[00:37:52] [Server thread/INFO]: Starting minecraft server version 1.21
+[00:37:52] [Server thread/INFO]: Loading properties
+[00:37:52] [Server thread/INFO]: Default game type: SURVIVAL
+[00:37:52] [Server thread/INFO]: Generating keypair
+[00:37:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:37:53] [Server thread/INFO]: Using epoll channel type
+[00:37:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:37:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:37:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:37:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:37:53] [Server thread/INFO]: Preparing level "world"
+[00:37:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:37:59] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[00:37:59] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[00:38:00] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[00:38:00] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[00:38:01] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[00:38:01] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[00:38:02] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[00:38:02] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[00:38:03] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[00:38:03] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[00:38:04] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[00:38:04] [Server thread/INFO]: Time elapsed: 5315 ms
+[00:38:04] [Server thread/INFO]: Done (11.403s)! For help, type "help"
+[00:41:30] [Server thread/INFO]: Stopping the server
+[00:41:30] [Server thread/INFO]: Stopping server
+[00:41:30] [Server thread/INFO]: Saving players
+[00:41:30] [Server thread/INFO]: Saving worlds
+[00:41:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:41:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:41:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:41:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
