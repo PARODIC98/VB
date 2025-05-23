@@ -14,7 +14,7 @@
 bedrock:
   # The IP address that will listen for connections.
   # Generally, you should only uncomment and change this if you want to limit what IPs can connect to your server.
-  #address: 0.0.0.0
+  #address: 127.0.0.1:3365
   # The port that will listen for connections
   port: 3397
   # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
@@ -53,7 +53,7 @@ remote:
   # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Geyser/wiki/Floodgate).
   # For plugin versions, it's recommended to keep the `address` field to "auto" so Floodgate support is automatically configured.
   # If Floodgate is installed and `address:` is set to "auto", then "auth-type: floodgate" will automatically be used.
-  auth-type: online
+  auth-type: offline
   # Whether to enable PROXY protocol or not while connecting to the server.
   # This is useful only when:
   # 1) Your server supports PROXY protocol (it probably doesn't)
@@ -157,7 +157,7 @@ add-non-bedrock-items: true
 # Bedrock prevents building and displaying blocks above Y127 in the Nether.
 # This config option works around that by changing the Nether dimension ID to the End ID. 
 # The main downside to this is that the entire Nether will have the same red fog rather than having different fog for each biome.
-above-bedrock-nether-building: false
+above-bedrock-nether-building: true
 
 # Force clients to load all resource packs if there are any.
 # If set to false, it allows the user to connect to the server even if they don't
