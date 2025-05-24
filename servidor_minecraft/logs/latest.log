@@ -111,3 +111,6 @@
 [02:58:29] [Async Chat Thread - #0/INFO]: [Not Secure] <.Parodic98> 25
 [02:58:39] [Server thread/INFO]: .Parodic98 has made the advancement [We Need to Go Deeper]
 [03:11:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3035ms or 60 ticks behind
+[03:16:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3536ms or 70 ticks behind
+[03:17:41] [Server thread/INFO]: Villager Villager['Villager'/6652, uuid='b7082296-93e5-44cb-8f8f-a27e8431a8c6', l='ServerLevel[world]', x=-2155.72, y=80.56, z=111.37, cpos=[-135, 6], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[03:25:54] [Server thread/INFO]: .Parodic98 has made the advancement [Isn't It Iron Pick]
