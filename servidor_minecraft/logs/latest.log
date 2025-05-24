@@ -1,152 +1,284 @@
-[02:32:27] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[02:32:27] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[02:32:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:32:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[02:32:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[14:38:54] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[14:38:54] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[14:38:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:38:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[14:38:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Geyser-Spigot (2.7.1-SNAPSHOT), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[02:32:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:32:34] [ServerMain/INFO]: Loaded 1290 recipes
-[02:32:34] [ServerMain/INFO]: Loaded 1399 advancements
-[02:32:34] [Server thread/INFO]: Starting minecraft server version 1.21
-[02:32:34] [Server thread/INFO]: Loading properties
-[02:32:34] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[02:32:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:32:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:32:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:32:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[02:32:36] [Server thread/INFO]: Default game type: SURVIVAL
-[02:32:36] [Server thread/INFO]: Generating keypair
-[02:32:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:32:36] [Server thread/INFO]: Using epoll channel type
-[02:32:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:32:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:32:37] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[02:32:39] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[02:32:39] [Server thread/INFO]: [floodgate] Took 1,932ms to boot Floodgate
-[02:32:39] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[02:32:39] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[02:32:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[02:32:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[02:32:41] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[02:32:43] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[02:32:43] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[02:32:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:32:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:32:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:32:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:32:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:32:43] [Server thread/INFO]: Preparing level "world"
-[02:32:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:32:45] [Server thread/INFO]: Time elapsed: 1211 ms
-[02:32:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:32:45] [Server thread/INFO]: Time elapsed: 197 ms
-[02:32:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:32:45] [Server thread/INFO]: Time elapsed: 82 ms
-[02:32:45] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[02:32:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[02:32:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[02:32:46] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[02:32:46] [Server thread/INFO]: [spark] Starting background profiler...
-[02:32:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:32:47] [Server thread/INFO]: [Geyser-Spigot] 
-[02:32:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
-[02:32:47] [Server thread/INFO]: [Geyser-Spigot] 
-[02:32:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:32:55] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 3397
-[02:32:55] [Server thread/INFO]: [Geyser-Spigot] Done (8.241s)! Run /geyser help for help!
-[02:32:55] [Server thread/INFO]: Done preparing level "world" (12.273s)
-[02:32:55] [Server thread/INFO]: Running delayed init tasks
-[02:32:55] [Server thread/INFO]: Done (28.987s)! For help, type "help"
-[02:32:55] [Server thread/INFO]: Timings Reset
-[02:32:55] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[02:33:15] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Parodic98
-[02:33:15] [localSession-7-2/INFO]: [Geyser-Spigot] Parodic98 (logged in as: Parodic98) has connected to the Java server
-[02:33:16] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Parodic98 joined (UUID: 00000000-0000-0000-0009-01f11a5daa88)
-[02:33:16] [Server thread/INFO]: .Parodic98 joined the game
-[02:33:16] [Server thread/INFO]: .Parodic98[/127.0.0.1:0] logged in with entity id 84 at ([world]98.30001, -49.0, 221.30001)
-[02:35:38] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [12, 4, 26]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:firefly_bush -> using default)
-[02:35:38] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [13, 3, 26]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:38] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [13, 4, 26]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:firefly_bush -> using default)
-[02:35:39] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[02:35:39] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:35:39] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[02:35:39] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:35:39] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[02:35:39] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:35:39] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [10, 3, 27]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:firefly_bush -> using default)
-[02:35:39] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [14, 4, 27]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:39] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [14, 5, 27]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [19, 3, 22]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [19, 4, 22]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [19, 3, 23]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [19, 4, 23]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [19, 4, 25]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:bush -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [19, 5, 25]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:bush -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[02:35:54] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:35:54] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[02:35:54] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [23, 4, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [24, 4, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [20, 3, 22]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [20, 4, 22]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [25, 4, 17]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [25, 4, 18]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:bush -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [25, 4, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:35:54] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [24, 3, 22]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:37:15] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[02:37:15] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:15] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [20, 4, 26]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:37:15] [Paper Common Worker #0/ERROR]: Recoverable errors when loading section [20, 5, 26]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default); (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: minecraft:leaf_litter -> using default)
-[02:37:22] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:22] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:22] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:22] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:30] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:30] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:30] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:37:30] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[02:44:55] [Server thread/INFO]: .Parodic98 has made the advancement [Cover Me with Diamonds]
-[02:58:16] [Async Chat Thread - #0/INFO]: [Not Secure] <.Parodic98> -250
-[02:58:29] [Async Chat Thread - #0/INFO]: [Not Secure] <.Parodic98> 25
-[02:58:39] [Server thread/INFO]: .Parodic98 has made the advancement [We Need to Go Deeper]
-[03:11:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3035ms or 60 ticks behind
-[03:16:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3536ms or 70 ticks behind
-[03:17:41] [Server thread/INFO]: Villager Villager['Villager'/6652, uuid='b7082296-93e5-44cb-8f8f-a27e8431a8c6', l='ServerLevel[world]', x=-2155.72, y=80.56, z=111.37, cpos=[-135, 6], tl=191, v=true] died, message: 'Villager suffocated in a wall'
-[03:25:54] [Server thread/INFO]: .Parodic98 has made the advancement [Isn't It Iron Pick]
-[03:34:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2829ms or 56 ticks behind
-[03:35:04] [Server thread/INFO]: .Parodic98 issued server command: /seed
-[03:45:50] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Parodic98 has disconnected from the Java server because of Bedrock client disconnected
-[03:45:50] [Server thread/INFO]: .Parodic98 lost connection: Disconnected
-[03:45:50] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Parodic98 disconnected
-[03:45:50] [Server thread/INFO]: .Parodic98 left the game
-[03:49:38] [Server thread/INFO]: Stopping the server
-[03:49:38] [Server thread/INFO]: Stopping server
-[03:49:38] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[03:49:38] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[03:49:38] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[03:49:38] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[03:49:38] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[03:49:38] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[03:49:38] [Server thread/INFO]: Saving players
-[03:49:38] [WebSocketConnectReadThread-87/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[03:49:38] [Server thread/INFO]: Saving worlds
-[03:49:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 24 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[03:49:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Saved 366 block chunks, 73 entity chunks, 0 poi chunks in world 'world_nether' in 0.23s
-[03:49:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:49:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[03:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:49:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:38:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:39:00] [ServerMain/INFO]: Loaded 1290 recipes
+[14:39:00] [ServerMain/INFO]: Loaded 1399 advancements
+[14:39:00] [Server thread/INFO]: Starting minecraft server version 1.21
+[14:39:00] [Server thread/INFO]: Loading properties
+[14:39:00] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[14:39:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:39:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:39:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:39:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[14:39:02] [Server thread/INFO]: Default game type: SURVIVAL
+[14:39:02] [Server thread/INFO]: Generating keypair
+[14:39:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:39:02] [Server thread/INFO]: Using epoll channel type
+[14:39:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:39:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:39:03] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:39:05] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[14:39:05] [Server thread/INFO]: [floodgate] Took 1,989ms to boot Floodgate
+[14:39:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[14:39:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[14:39:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:39:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:39:07] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[14:39:09] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[14:39:09] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[14:39:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:39:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:39:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:39:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:39:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:39:09] [Server thread/INFO]: Preparing level "world"
+[14:39:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:39:10] [Server thread/INFO]: Time elapsed: 1014 ms
+[14:39:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:39:11] [Server thread/INFO]: Time elapsed: 181 ms
+[14:39:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:39:11] [Server thread/INFO]: Time elapsed: 78 ms
+[14:39:11] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:39:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[14:39:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[14:39:12] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[14:39:13] [Server thread/INFO]: [spark] Starting background profiler...
+[14:39:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:39:13] [Server thread/INFO]: [Geyser-Spigot] 
+[14:39:13] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b833 (git-master-d0be6d9)
+[14:39:13] [Server thread/INFO]: [Geyser-Spigot] 
+[14:39:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:39:22] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 3397
+[14:39:22] [Server thread/INFO]: [Geyser-Spigot] Done (9.032s)! Run /geyser help for help!
+[14:39:22] [Server thread/INFO]: Done preparing level "world" (13.196s)
+[14:39:22] [Server thread/INFO]: Running delayed init tasks
+[14:39:22] [Server thread/INFO]: Done (29.542s)! For help, type "help"
+[14:39:22] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:39:22] [Server thread/INFO]: Timings Reset
+[14:39:38] [Server thread/INFO]: Unknown or incomplete command, see below for error
+.seed<--[HERE]
+[14:39:44] [Server thread/INFO]: --------- Help: Index ---------------------------
+[14:39:44] [Server thread/INFO]: Use /help [n] to get page n of help.
+[14:39:44] [Server thread/INFO]: Aliases: Lists command aliases
+[14:39:44] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[14:39:44] [Server thread/INFO]: floodgate: All commands for floodgate
+[14:39:44] [Server thread/INFO]: Geyser-Spigot: All commands for Geyser-Spigot
+[14:39:44] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[14:39:44] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
+[14:39:44] [Server thread/INFO]: /advancement: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /attribute: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /ban: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /banlist: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /callback: ClickEvent callback
+[14:39:44] [Server thread/INFO]: /clear: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /clone: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /damage: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /data: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /datapack: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /debug: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /deop: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /effect: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /enchant: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /execute: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /experience: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /fill: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /fillbiome: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /floodgate: A set of Floodgate related actions in one command
+[14:39:44] [Server thread/INFO]: /forceload: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /function: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /fwhitelist: Easy way to whitelist Bedrock players
+[14:39:44] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /geyser: 
+[14:39:44] [Server thread/INFO]: /geyser-spigot:geyser: 
+[14:39:44] [Server thread/INFO]: /give: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /help: Shows the help menu
+[14:39:44] [Server thread/INFO]: /item: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /jfr: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /kick: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /kill: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /linkaccount: Link your Java account with your Bedrock account
+[14:39:44] [Server thread/INFO]: /list: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /locate: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /loot: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /me: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:advancement: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:attribute: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:ban-ip: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:banlist: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:bossbar: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:clone: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:damage: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:data: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:datapack: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:debug: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:defaultgamemode: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:deop: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:difficulty: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:effect: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:execute: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:experience: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:fill: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:fillbiome: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:forceload: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:function: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:gamerule: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:item: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:jfr: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:locate: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:loot: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:op: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:pardon-ip: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:particle: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:perf: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:place: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:playsound: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:random: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:return: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:ride: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:save-all: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:save-off: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:save-on: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:say: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:schedule: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:scoreboard: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:seed: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:setblock: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:setidletimeout: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:setworldspawn: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:spawnpoint: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:spectate: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:spreadplayers: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:stop: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:stopsound: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:summon: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:tag: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:team: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:teammsg: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:tellraw: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:tick: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:title: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:tm: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:transfer: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:trigger: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:whitelist: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:worldborder: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /msg: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /mspt: View server tick times
+[14:39:44] [Server thread/INFO]: /op: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /paper: Paper related commands
+[14:39:44] [Server thread/INFO]: /paper:spark: 
+[14:39:44] [Server thread/INFO]: /pardon: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /particle: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /perf: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /place: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /playsound: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[14:39:44] [Server thread/INFO]: /random: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /recipe: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[14:39:44] [Server thread/INFO]: /restart: Restarts the server
+[14:39:44] [Server thread/INFO]: /return: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /ride: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /save-all: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /save-off: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /save-on: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /say: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /schedule: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /seed: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /setblock: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /spark: 
+[14:39:44] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /spectate: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /spigot: Spigot related commands
+[14:39:44] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /stop: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /summon: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /tag: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /team: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /teleport: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /tell: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /tick: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /time: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[14:39:44] [Server thread/INFO]: /title: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /tm: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /tp: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[14:39:44] [Server thread/INFO]: /transfer: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /trigger: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /unlinkaccount: Unlink your Java account from your Bedrock account
+[14:39:44] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[14:39:44] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
+[14:39:44] [Server thread/INFO]: /w: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /weather: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[14:39:44] [Server thread/INFO]: /xp: A Mojang provided command.
+[14:40:12] [Server thread/INFO]: Seed: [1504999412134873800]
+[14:42:51] [Server thread/INFO]: Stopping the server
+[14:42:52] [Server thread/INFO]: Stopping server
+[14:42:52] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[14:42:52] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[14:42:52] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[14:42:52] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[14:42:52] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[14:42:52] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:42:52] [WebSocketConnectReadThread-87/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[14:42:52] [Server thread/INFO]: Saving players
+[14:42:52] [Server thread/INFO]: Saving worlds
+[14:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.19s
+[14:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[14:42:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:42:52] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[14:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:42:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
